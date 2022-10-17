@@ -9,9 +9,7 @@
     
     overflow-x: hidden;
 }
-.card{
-    max-width: 350px;
-  }
+
 .logo--text{
     font-family: 'Mulish';
     font-style: normal;
@@ -59,35 +57,6 @@
     color: #1E3240;
     
 }
- .navbar #navbarNav {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .navbar a {
-    color: black;
-    text-align: left;
-   
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    
-  }
-  
-  /* Style the hamburger menu */
- 
-  
-  /* Add a grey background color on mouse-over */
-  .navbar a:hover {
-   
-    color:white;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    
-    color: white;
-  }
 .hero--small{
     font-family: 'Mulish';
     font-style: normal;
@@ -289,6 +258,39 @@
     color: #1E3240;
 
   }
+  .navbar #navbarNav {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .navbar a {
+    color: black;
+    text-align: left;
+   
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+  }
+  
+  /* Style the hamburger menu */
+ 
+  
+  /* Add a grey background color on mouse-over */
+  .navbar a:hover {
+   
+    color:white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    
+    color:white;
+  }
+  .card{
+    max-width: 330px;
+    
+  }
   .testimonial--text{
     font-family: 'Mulish';
     font-style: normal;
@@ -442,12 +444,68 @@ padding: 10px;
 
 color: #BDBDBD;
 }
+
 textarea{
     width: 540px;
 height: 120px;
 margin-top: 11px;
 margin-bottom: 11px;
 }
+.owl-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    padding: 30px 0;
+  }
+  .owl-carousel .item {
+    
+    text-align: center;
+
+  }
+  
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
+    
+    
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+  }
+  
+  .owl-nav button span {
+    font-size: 30px;
+    height: 100%;
+    display: block;
+    width: 100%;
+  }
+  .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+  }
+  .owl-carousel .owl-nav {
+    margin: 0;
+  }
+  .btn-wrap {
+    text-align: center;
+    width: 100%;
+  }
+  button {
+   
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s;
+    display: inline-flex;
+   align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .owl-theme .owl-nav .disabled,
+  button.disabled {
+    opacity: 0.6;
+  }
 
 @media only screen and (max-width:1300px) {
 .nav-link{
@@ -474,6 +532,9 @@ margin-bottom: 11px;
         flex-direction: column-reverse;
         padding:3em;
     }
+    button{
+        margin: 15px;
+    }
     .arr--row{
         display: none;
     }
@@ -482,6 +543,9 @@ margin-bottom: 11px;
        
         flex-direction: column;
         align-items: center;
+    }
+    .comment--head{
+        margin-top: 1em;
     }
     .sub--text{
         text-align: center;
@@ -517,7 +581,7 @@ margin-bottom: 11px;
         display: none;
     }
     
-    .contact--subtext{
+    .contact--subtext,.auth--name,.auth--title{
         text-align: center;
     }
     .hero--text{
@@ -584,6 +648,15 @@ margin-bottom: 11px;
     }
     .testimonial--head,.testimonial--text{
         text-align: center;
+        
+    }
+    .testimonial--head{
+        font-size: 24px;
+
+    }
+    .testimonial--text{
+        font-size: 18px;
+        
     }
     .contact--row{
         padding-top: 20px;
@@ -595,5 +668,12 @@ margin-bottom: 11px;
     .lrow{
         flex-wrap: nowrap;
       }
+      .pleft{
+        padding-left:3em;
+      }
+      .testi--row{
+        padding-top: 1em;
+      }
+
 }  
 
