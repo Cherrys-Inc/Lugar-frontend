@@ -9,7 +9,9 @@
     
     overflow-x: hidden;
 }
-
+.card{
+    max-width: 350px;
+  }
 .logo--text{
     font-family: 'Mulish';
     font-style: normal;
