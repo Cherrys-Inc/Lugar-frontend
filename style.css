@@ -59,6 +59,35 @@
     color: #1E3240;
     
 }
+ .navbar #navbarNav {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .navbar a {
+    color: white;
+    text-align: left;
+   
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+  }
+  
+  /* Style the hamburger menu */
+ 
+  
+  /* Add a grey background color on mouse-over */
+  .navbar a:hover {
+   
+    color:black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    
+    color: black;
+  }
 .hero--small{
     font-family: 'Mulish';
     font-style: normal;
